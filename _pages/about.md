@@ -1,17 +1,37 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "Zhiyu Xu, Statistics Ph.D. researcher at Columbia University working on LLM evaluation, cognitive diagnosis, and latent-variable models."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi, everyone! Welcome to my homepage. I am currently a senior student in Weiyang College, Tsinghua University, double major in Mathematics and Physics, as well as Energy and Power Engineering. 
+Welcome! I am a third-year Ph.D. in Statistics at Columbia University. Before Columbia, I received a B.S. in Mathematics and Physics and a B.E. in Energy and Power Engineering from Tsinghua University.
 
-Along with my undergraduate studies, I am advised by Professor [Ke Deng](http://www.stat.tsinghua.edu.cn/kdeng/) and Dr. [Yichao Li](https://statistics.fas.harvard.edu/people/yichao-li) in Tsinghua concerning the behavior of Sequential Monte Carlo (SMC). In the summer, I am guided by Professor [Yuqi Gu](https://stat.columbia.edu/~yuqigu/) at Columbia University in mixture models and spectral methods.
+My research develops *identifiable* latent variable models and *scalable* probabilistic machine learning methods for **LLM evaluation and psychometrics**. My research spans from novel methodoloty, to rigorous theoretical guarantee, with strong application motivation. 
 
-I am generally intrigued by how to discover knowledge in a data-driven manner and further how to make decisions based on observations. My past research experiences have focused on better and efficient estimation of statistical models. I am interested in methods and their theoretical properties. I am also eager to apply interpretable statistical methods to data arised in physics, biology, social sciences and engineering. 
+You can reach me at [xu.zhiyu@columbia.edu](mailto:xu.zhiyu@columbia.edu). See my [CV]({{ '/cv/' | relative_url }}) or [download the PDF]({{ '/files/Xu_Zhiyu_CV.pdf' | relative_url }}) for more details.
+<!-- 
+## Selected research
 
-Feel free to contact me through email if you are interested in me or just want to be friends.
+{% assign research = site.publications | sort: 'order' %}
+{% for paper in research %}
+### {{ paper.title }}
+
+{{ paper.summary }}
+
+{% include research-links.html paper=paper %}
+{% endfor %}
+
+See [Publications]({{ '/publications/' | relative_url }}) for authors and publication status, and [Research]({{ '/research/' | relative_url }}) for my contributions to each project. -->
+
+## Recognition
+
+- ASA Statistical Learning and Data Science Student Paper Award, 2026.
+- NSF SLDS 2026 Travel Support Award, 2026.
+
+<!-- ## Teaching
+
+I served as a Graduate Teaching Assistant at Columbia University from 2024 to 2026 for Statistical Machine Learning, Probability Theory, Linear Regression, and Applied Statistics (Ph.D. class). -->

@@ -1,7 +1,9 @@
 # main links links
 main:
-  # - title: "Publications"
-  #   url: /publications/
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
 
   # - title: "Talks"
   #   url: /talks/    
@@ -16,7 +18,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /files/Xu_Zhiyu_CV.pdf
+    url: /cv/
     
   # - title: "Guide"
   #   url: /markdown/

@@ -1,0 +1,6 @@
+<article class="publication-entry">
+  <h3><a href="{{ include.paper.url | relative_url }}">{{ include.paper.title }}</a></h3>
+  <p>{{ include.paper.authors | replace: 'Zhiyu Xu', '<strong>Zhiyu Xu</strong>' }}{% if include.paper.author_note %} ({{ include.paper.author_note }}){% endif %}. {{ include.paper.year }}.</p>
+  <p><em>{{ include.paper.status }}.</em></p>
+  {% include research-links.html paper=include.paper %}
+</article>

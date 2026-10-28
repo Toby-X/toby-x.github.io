@@ -1,0 +1,6 @@
+{% if page.collection == 'publications' %}
+<p>{{ page.authors }}{% if page.author_note %} ({{ page.author_note }}){% endif %}. {{ page.year }}.</p>
+<p><em>{{ page.status }}.</em></p>
+{% include research-links.html paper=page %}
+<h2>My contributions</h2>
+{% endif %}

@@ -1,0 +1,9 @@
+{% if include.paper.paperurl or include.paper.codeurl or page.url != include.paper.url %}
+<p>
+  {% if include.paper.paperurl %}<a href="{{ include.paper.paperurl }}">{{ include.paper.paper_label | default: 'Paper' }}</a>{% endif %}
+  {% if include.paper.codeurl %}{% if include.paper.paperurl %} &middot; {% endif %}<a href="{{ include.paper.codeurl }}">{{ include.paper.code_label | default: 'Code' }}</a>{% endif %}
+  {% unless page.url == include.paper.url %}
+    {% if include.paper.paperurl or include.paper.codeurl %} &middot; {% endif %}<a href="{{ include.paper.url | relative_url }}">Project details</a>
+  {% endunless %}
+</p>
+{% endif %}
