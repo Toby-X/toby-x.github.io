@@ -13,20 +13,6 @@ Welcome! I am a third-year Ph.D. in Statistics at Columbia University. Before Co
 My research develops *identifiable* latent variable models and *scalable* probabilistic machine learning methods for **LLM evaluation and psychometrics**. My research spans from novel methodoloty, to rigorous theoretical guarantee, with strong application motivation. 
 
 You can reach me at [xu.zhiyu@columbia.edu](mailto:xu.zhiyu@columbia.edu). See my [CV]({{ '/cv/' | relative_url }}) or [download the PDF]({{ '/files/Xu_Zhiyu_CV.pdf' | relative_url }}) for more details.
-<!-- 
-## Selected research
-
-{% assign research = site.publications | sort: 'order' %}
-{% for paper in research %}
-### {{ paper.title }}
-
-{{ paper.summary }}
-
-{% include research-links.html paper=paper %}
-{% endfor %}
-
-See [Publications]({{ '/publications/' | relative_url }}) for authors and publication status, and [Research]({{ '/research/' | relative_url }}) for my contributions to each project. -->
-
 ## Recognition
 
 - ASA Statistical Learning and Data Science Student Paper Award, 2026.

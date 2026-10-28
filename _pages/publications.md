@@ -4,11 +4,13 @@ title: "Publications"
 excerpt: "Journal articles, manuscripts under revision, and preprints by Zhiyu Xu."
 permalink: /publications/
 author_profile: true
+redirect_from:
+  - /research/
 ---
 
 My work spans latent-variable models, probabilistic machine learning, and psychometrics, with applications to educational assessment and large language model evaluation.
 
-See [Google Scholar]({{ site.author.googlescholar }}) for my scholar profile and [Research]({{ '/research/' | relative_url }}) for project descriptions and my contributions.
+You can also find my work on [Google Scholar]({{ site.author.googlescholar }}).
 
 {% assign papers = site.publications | sort: 'order' %}
 
